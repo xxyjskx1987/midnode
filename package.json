@@ -1,0 +1,24 @@
+{
+  "name": "midnode",
+  "version": "1.0.1",
+  "description": "a node framework",
+  "main": "index.js",
+  "scripts": {
+    "test": "npm test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/xxyjskx1987/midnode.git"
+  },
+  "keywords": [
+    "node",
+    "framework",
+    "javascript"
+  ],
+  "author": "xxyjskx1987",
+  "license": "GPL-3.0-or-later",
+  "bugs": {
+    "url": "https://github.com/xxyjskx1987/midnode/issues"
+  },
+  "homepage": "https://github.com/xxyjskx1987/midnode#readme"
+}
