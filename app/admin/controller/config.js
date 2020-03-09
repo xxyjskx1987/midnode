@@ -1,0 +1,72 @@
+module.exports = {
+    dbPath: 'mongodb://127.0.0.1:50001/uwbdb',
+    redisconfig: {
+        'host': '127.0.0.1',
+        'port': 6379
+    },
+    mysqlconfig: {
+        host: '127.0.0.1',
+        user: 'root',
+        password: 'cloudforce',
+        database: 'mdps_new',
+        pretable: 'ob_mdps_'
+    },
+    datatype: {
+        clocksync_server: 0,
+        clocksync_client: 1,
+        pos_tdoa: 2,
+        pos_twr: 3,
+        pos_a2a: 4,
+        crud_anchor: 60,
+        crud_tag: 61,
+        crud_fence: 62,
+        crud_subfence: 63,
+        crud_camera: 64,
+        crud_person: 65,
+        crud_persongroup: 66,
+        crud_rules: 67,
+        crud_tagparamrule: 68,
+        crud_fence_camera: 69,
+        crud_follow_tag: 70,
+        twr_pos_solve: 80,
+        tdoa_pos_solve: 81,
+        anchor_nolist: 82,
+        anchor_settagparam: 83,
+        msg_out: 84,
+        tag_auto_add: 85,
+        notime_p3p: 86,
+        activate_fenceid_type2: 87,
+        close_fenceid_type2: 88,
+        trigger_fencetype2_data: 89,
+        activate_fenceid_type5: 90,
+        close_fenceid_type5: 91,
+        trigger_fencetype5_data: 92,
+        keygen_flag: 93,
+        need_tdoa_notice: 94,
+        tdoa_notice: 95,
+        tdoa_notice_close: 96,
+        exception_need_tdoa: 97,
+        exception_need_tdoa_close: 98,
+        tdoa_twr_need: 99,
+        receipt_msg: 100,
+        need_receipt: 101,
+        log_set: 102
+    },
+    operatetype: {
+        operate_create: 30,
+        operate_update: 31,
+        operate_read: 32,
+        operate_delete: 33
+    },
+    redis_list_keys: {
+        entry_list: 'entry_list',
+        msg_list: 'msg_list',
+        calcpos_list: 'calcpos_list',
+        calctdoa_list: 'calctdoa_list',
+        ctrltwr_list: 'ctrltwr_list',
+        socketio_list: 'socketio_list',
+        httpapi_list: 'httpapi_list',
+        clock_list: 'clock_list',
+        fence_list: 'fence_list'
+    }
+}
